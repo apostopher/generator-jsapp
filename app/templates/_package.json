@@ -1,0 +1,16 @@
+{
+  "name": "<%= module_name %>",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  }
+}
